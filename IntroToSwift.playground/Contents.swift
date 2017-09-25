@@ -32,3 +32,22 @@ someNumber = someNumber * 2
 someNumber = someNumber / 4
 someNumber = someNumber - 123 + 1111111111111 / 23 * 21 - 2345678987654
 
+let names = ["Bob", "Jeff", "Dillon"]
+for name in names {
+    print("\(name): Mason sucks hahahahaaha")
+}
+
+//let sadMason = ["Mason"]
+//for name in sadMason {
+// print ("Mason: Hey that wasnt very nice")
+//}
+
+var sadMason :String
+sadMason = "Mason: Hey that wasnt very nice"
+print(sadMason)
+
+let numberOfFriends = ["Mason": 0, "Morgan": 420, "Ash": 69]
+for (personName, friendCount) in numberOfFriends {
+    print("\(personName) has \(friendCount) friends")
+}
+                                                                                                                                                                                                                                                                                                                                                                                                              
