@@ -46,6 +46,8 @@ var sadMason :String
 sadMason = "Mason: Hey that wasnt very nice"
 print(sadMason)
 
+//I know how to make a list using loops and get them to print on screen
+//In the order that I put them in.
 let numberOfFriends = ["Mason": 0, "Morgan": 420, "Ash": 69]
 for (personName, friendCount) in numberOfFriends {
     print("\(personName) has \(friendCount) friends")
