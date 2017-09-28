@@ -18,3 +18,33 @@ public func evenLessSimpleMethod(count :Int, bandname :String, date :String) -> 
     print(info)
 }
 evenLessSimpleMethod(count: 4, bandname: "N-Sync", date: "February, 2001")
+
+
+public func calculateDays(firstDay :Int, secondDay :Int) -> Int
+{
+    let answer = secondDay - firstDay
+    
+    return answer
+}
+calculateDays(firstDay: 4, secondDay:5)
+public func name(friendName homeName :String) -> Void
+{
+    let info = "At home my name is " + homeName
+    print(info)
+}
+name(friendName: "Mason")
+
+var guess = 234
+if(guess > 500)
+{
+    print("Yahoooooo")
+}
+else
+{
+    print("Lul you suck nerd")
+}
+while (guess > 0)
+{
+    print("hahahahahaha \(guess)")
+    guess -= 1
+}
